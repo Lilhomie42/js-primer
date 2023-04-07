@@ -4,6 +4,7 @@ function addFavoriteBook(bookName) {
         favoriteBooks.push(bookName);
     }
 }
+// expected output: "Favorite Books: 3"
 
 // TODO: define printFavoriteBooks() function
 function printFavoriteBooks() {
@@ -12,7 +13,7 @@ function printFavoriteBooks() {
         console.log(bookName);
     }
 }
-
+// expected output: "A Song of Ice and Fire"
 var favoriteBooks = [];
 
 addFavoriteBook("A Song of Ice and Fire");
@@ -23,3 +24,4 @@ addFavoriteBook("You Don't Know JS");
 
 // TODO: print out favorite books
 printFavoriteBooks();
+// expected output: "Favorite Books: 3"
